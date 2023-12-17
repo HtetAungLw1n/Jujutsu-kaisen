@@ -1,0 +1,51 @@
+.about {
+  position: relative;
+}
+
+.about-section {
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  padding: 5vh;
+  background-color: var(--second-color);
+  color: white;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.about-header {
+  padding-left: 7%;
+  font-size: 50px;
+}
+
+.about-container {
+  display: flex;
+}
+
+.about-text-container {
+  width: 65%;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 7%;
+  font-size: 1.25rem;
+  line-height: 40px;
+}
+
+.about-text-container .author {
+  font-weight: bold;
+  color: var(--main-color);
+  font-size: 2rem;
+}
+
+.about-img-container {
+  width: 35%;
+}
+
+.about-img-container img {
+  margin-top: 12%;
+  object-fit: cover;
+}
+
+.about-text-container ul {
+  margin-left: 5%;
+}
