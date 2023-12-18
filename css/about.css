@@ -1,11 +1,4 @@
-.about {
-  position: relative;
-}
-
 .about-section {
-  position: absolute;
-  top: -50px;
-  width: 100%;
   padding: 5vh;
   background-color: var(--second-color);
   color: white;

@@ -1,4 +1,4 @@
-@import url(main.css);
+@import url(home.css);
 @import url(about.css);
 
 * {
@@ -12,4 +12,9 @@
   --main-color: #e84545;
   --second-color: #1c1d22;
   --third-color: #53354a;
+}
+
+main {
+  position: absolute;
+  margin-top: 95vh;
 }
