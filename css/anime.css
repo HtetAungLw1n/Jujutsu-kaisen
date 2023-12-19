@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 40% 1fr;
   align-items: center;
+  padding-top: 3vh;
 }
 
 .anime-img {
@@ -29,6 +30,7 @@
   background-color: transparent;
   text-align: start;
   cursor: pointer;
+  transition: all 0.15s;
 }
 
 .anime-tile-number {
@@ -38,4 +40,8 @@
 .anime-tile-name {
   font-weight: bold;
   font-size: 3rem;
+}
+
+.anime-title-btn:hover {
+  color: rgb(163, 163, 163);
 }
