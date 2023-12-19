@@ -1,0 +1,41 @@
+.anime-container {
+  height: 80vh;
+  /* background-color: aqua; */
+  color: white;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  align-items: center;
+}
+
+.anime-img {
+  height: 80vh;
+}
+.anime-title-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80vh;
+}
+
+.anime-img img {
+  border-radius: 1%;
+  height: 100%;
+  object-fit: cover;
+}
+.anime-title-btn {
+  color: white;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  text-align: start;
+  cursor: pointer;
+}
+
+.anime-tile-number {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.anime-tile-name {
+  font-weight: bold;
+  font-size: 3rem;
+}

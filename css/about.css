@@ -1,13 +1,4 @@
-.about-section {
-  padding: 5vh;
-  background-color: var(--second-color);
-  color: white;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
-
 .about-header {
-  padding-left: 7%;
   font-size: 50px;
   padding-top: 3vh;
 }
@@ -19,8 +10,7 @@
 .about-text-container {
   width: 65%;
   padding-top: 2%;
-  padding-left: 10%;
-  padding-right: 7%;
+  padding-left: 5%;
   font-size: 1.25rem;
   line-height: 40px;
 }
@@ -33,6 +23,7 @@
 
 .about-img-container {
   width: 35%;
+  padding-left: 6%;
 }
 
 .about-img-container img {

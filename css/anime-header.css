@@ -1,15 +1,13 @@
 .anime-header {
-  background-color: var(--second-color);
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2vh 3.5vw;
 }
 
 .anime-header .container {
-  width: 90%;
-  height: 75%;
+  width: 100%;
+  height: 70%;
   background-position: center;
   background-image: url("/img/Gojo-sitting.png");
   background-size: cover;
