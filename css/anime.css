@@ -1,6 +1,5 @@
 .anime-container {
   height: 80vh;
-  /* background-color: aqua; */
   color: white;
   display: grid;
   grid-template-columns: 40% 1fr;
