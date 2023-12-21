@@ -44,3 +44,6 @@
 .anime-title-btn:hover {
   color: rgb(163, 163, 163);
 }
+.anime-title-btn:active {
+  transform: translateX(10px);
+}
