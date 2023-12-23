@@ -2,6 +2,7 @@
 @import url(about.css);
 @import url(anime.css);
 @import url(anime-header.css);
+@import url(manga.css);
 
 * {
   padding: 0;

@@ -1,13 +1,14 @@
 .anime-header {
-  height: 90vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10vh 0;
 }
 
 .anime-header .container {
   width: 100%;
-  height: 70%;
+  height: 100%;
   background-position: center;
   background-image: url("/img/anime-header.jpg");
   background-size: cover;
@@ -19,7 +20,6 @@
 .anime-header h1 {
   position: absolute;
   font-size: 6rem;
-  color: white;
   text-align: center;
   opacity: 100%;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.816);

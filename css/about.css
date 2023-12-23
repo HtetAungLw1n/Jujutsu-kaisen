@@ -1,5 +1,5 @@
 .about-header {
-  font-size: 3rem;
+  font-size: 5rem;
   padding-top: 3vh;
 }
 
@@ -27,6 +27,7 @@
 }
 
 .about-img-container img {
+  width: 100%;
   margin-top: 12%;
   object-fit: cover;
 }

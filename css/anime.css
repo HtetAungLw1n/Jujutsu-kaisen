@@ -1,10 +1,9 @@
 .anime-container {
-  height: 80vh;
   color: white;
   display: grid;
   grid-template-columns: 40% 1fr;
   align-items: center;
-  padding-top: 3vh;
+  padding: 3vh 0;
 }
 
 .anime-img {
@@ -18,9 +17,8 @@
 }
 
 .anime-img img {
-  border-radius: 1%;
+  border-radius: 10px;
   height: 100%;
-  object-fit: cover;
 }
 .anime-title-btn {
   color: white;
