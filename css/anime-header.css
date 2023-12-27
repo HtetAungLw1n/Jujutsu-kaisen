@@ -1,4 +1,4 @@
-.anime-header {
+.arc-header {
   height: 50vh;
   display: flex;
   justify-content: center;
@@ -6,7 +6,7 @@
   margin: 10vh 0;
 }
 
-.anime-header .container {
+.arc-header .container {
   width: 100%;
   height: 100%;
   background-position: center;
@@ -17,15 +17,15 @@
   border-radius: 10px;
 }
 
-.anime-header h1 {
+.arc-header h1 {
   position: absolute;
-  font-size: 6rem;
+  font-size: 8rem;
   text-align: center;
   opacity: 100%;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.816);
 }
 
-.anime-header a {
+.arc-header a {
   text-decoration: none;
   color: white;
 }
