@@ -1,0 +1,46 @@
+.songs-section {
+  font-weight: bold;
+  padding: 3vh 0;
+}
+
+.opening-section-header p {
+  margin-top: 5vh;
+  font-size: 3rem;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: 26px 1fr 26px;
+  justify-content: space-around;
+  margin-top: 5vh;
+  height: 30vh;
+}
+
+.left-arrow {
+  /* height: 30vh; */
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.right-arrow {
+  justify-self: end;
+  /* height: 30vh; */
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.videos {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.video {
+  background-image: url(/img/anime-header.jpg);
+}
