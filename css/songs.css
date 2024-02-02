@@ -35,7 +35,6 @@
 .slider-wrapper .slide-btn#prev-slide {
   left: -35px;
   z-index: 99;
-  display: none;
 }
 .slider-wrapper .slide-btn#next-slide {
   right: -35px;
@@ -138,7 +137,6 @@
 .slider-wrapper-two .slide-btn-two#prev-slide-two {
   left: -35px;
   z-index: 99;
-  display: none;
 }
 .slider-wrapper-two .slide-btn-two#next-slide-two {
   right: -35px;

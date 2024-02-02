@@ -22,37 +22,37 @@ const initSlider = () => {
   ]);
 
   // handleDisplayofSlidebtn
-  const handelSlideButtons = () => {
-    slideButtons[0].style.display =
-      imageListTwo.scrollLeft <= 0 ? "none" : "block";
-    slideButtons[1].style.display =
-      imageListTwo.scrollLeft >= maxScrollLeft ? "none" : "block";
-  };
+  // const handelSlideButtons = () => {
+  //   slideButtons[0].style.display =
+  //     imageList.scrollLeft <= 0 ? "none" : "block";
+  //   slideButtons[1].style.display =
+  //     imageList.scrollLeft >= maxScrollLeft ? "none" : "block";
+  // };
 
-  imageListTwo.addEventListener("scroll", () => {
-    handelSlideButtons();
-  });
+  // imageListTwo.addEventListener("scroll", () => {
+  //   handelSlideButtons();
+  // });
 
   //ending
   slideButtonsTwo.forEach((button) => [
     button.addEventListener("click", () => {
-      const direction = button.id === "prev-slide-two" ? -1 : 1;
-      const scrollAmount = imageListTwo.clientWidth * direction;
+      const directiontwo = button.id === "prev-slide-two" ? -1 : 1;
+      const scrollAmount = imageListTwo.clientWidth * directiontwo;
       imageListTwo.scrollBy({ left: scrollAmount, behavior: "smooth" });
     }),
   ]);
 
   // handleDisplayofSlidebtn
-  const handelSlideButtonsTwo = () => {
-    slideButtonsTwo[0].style.display =
-      imageListTwo.scrollLeft <= 0 ? "none" : "block";
-    slideButtonsTwo[1].style.display =
-      imageListTwo.scrollLeft >= maxScrollLeftTwo ? "none" : "block";
-  };
+  // const handelSlideButtonsTwo = () => {
+  //   slideButtonsTwo[0].style.display =
+  //     imageListTwo.scrollLeft <= 0 ? "none" : "block";
+  //   slideButtonsTwo[1].style.display =
+  //     imageListTwo.scrollLeft >= maxScrollLeftTwo ? "none" : "block";
+  // };
 
-  imageListTwo.addEventListener("scroll", () => {
-    handelSlideButtonsTwo();
-  });
+  // imageListTwo.addEventListener("scroll", () => {
+  //   handelSlideButtonsTwo();
+  // });
 };
 
 window.addEventListener("load", initSlider);
