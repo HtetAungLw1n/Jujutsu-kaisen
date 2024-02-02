@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10vh 0;
+  margin: 5vh 0 10vh;
 }
 
 .arc-header .container {
-  width: 100%;
+  width: 90%;
   height: 100%;
   background-position: center;
   background-image: url("/img/anime-header.jpg");
@@ -19,7 +19,7 @@
 
 .arc-header h1 {
   position: absolute;
-  font-size: 8rem;
+  font-size: 6rem;
   text-align: center;
   opacity: 100%;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.816);
@@ -28,4 +28,29 @@
 .arc-header a {
   text-decoration: none;
   color: white;
+}
+
+@media (max-width: 800px) {
+  .arc-header {
+    margin-bottom: 5vh;
+  }
+  .arc-header .container {
+    height: 80%;
+  }
+  .arc-header h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .arc-header {
+    height: 10vh;
+    margin: 0;
+  }
+  .arc-header .container {
+    height: 100%;
+  }
+  .arc-header h1 {
+    font-size: 2rem;
+  }
 }

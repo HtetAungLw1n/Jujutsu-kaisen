@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 40% 1fr;
   align-items: center;
-  padding: 3vh 0;
+  padding: 3vh 5vw;
 }
 
 .anime-img {
@@ -44,4 +44,59 @@
 }
 .anime-title-btn:active {
   transform: translateX(10px);
+}
+
+@media (max-width: 1500px) {
+  .anime-title-group {
+    width: 80%;
+    margin-left: 100px;
+  }
+  .anime-img img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .anime-tile-number {
+    font-size: 1.5rem;
+  }
+  .anime-tile-name {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .anime-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .anime-title-group {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .anime-img {
+    width: 90vw;
+    height: 50vh;
+  }
+}
+@media (max-width: 600px) {
+  .anime-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .anime-title-group {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .anime-img {
+    width: 90vw;
+    height: 50vh;
+  }
+  .anime-tile-number {
+    font-size: 1.5rem;
+  }
+  .anime-tile-name {
+    font-size: 2rem;
+  }
 }

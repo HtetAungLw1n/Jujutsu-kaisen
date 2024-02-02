@@ -3,6 +3,8 @@
 @import url(anime.css);
 @import url(anime-header.css);
 @import url(manga.css);
+@import url(songs.css);
+@import url(footer.css);
 
 * {
   padding: 0;
@@ -11,20 +13,12 @@
   font-family: "Red Hat Display", sans-serif;
   scroll-behavior: smooth;
 }
+body {
+  background-color: var(--second-color);
+}
 
 :root {
   --main-color: #e84545;
   --second-color: #1c1d22;
   --third-color: #53354a;
-}
-
-main {
-  position: absolute;
-  margin-top: 95vh;
-  padding: 5vh 9vw;
-  background-color: var(--second-color);
-  color: white;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-  width: 99.1vw;
 }
