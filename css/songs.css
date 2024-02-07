@@ -100,6 +100,7 @@
   }
   .slider-wrapper .slide-btn {
     top: 35%;
+    display: none;
   }
   .slider-wrapper .img-list .img-item {
     width: 348px;
@@ -212,6 +213,7 @@
   }
   .slider-wrapper-two .slide-btn-two {
     top: 35%;
+    display: none;
   }
   .slider-wrapper-two .img-list-two .img-item-two {
     width: 348px;
