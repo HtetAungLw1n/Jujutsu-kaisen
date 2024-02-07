@@ -1,6 +1,5 @@
 .footer {
   padding: 2vh 5vw;
-  height: 30vh;
   margin-top: 5vh;
   background-color: rgb(20, 19, 19);
   display: grid;
@@ -39,4 +38,20 @@
   margin: 20px;
   margin-left: 0;
   font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footer .mini-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .footer .mini-nav a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+  }
 }
