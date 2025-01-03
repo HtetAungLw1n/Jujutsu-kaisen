@@ -11,9 +11,9 @@ This is a fan-made website dedicated to the popular manga and anime series **JuJ
 
 ## Features
 
-- **Interactive Design:** User-friendly navigation and visually appealing layout.
+- **Interactive Design:** User can click on various parts on website.
 - **Responsive Layout:** Optimized for various screen sizes and devices.
-- **Tech Stack Integration:** Built using modern web technologies.
+- **Smooth Transition:** Blur effect and translateY on scroll.
 
 ## Tech Stack
 
