@@ -22,3 +22,16 @@ body {
   --second-color: #1c1d22;
   --third-color: #53354a;
 }
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(50px);
+  transition: all 0.8s ease;
+}
+
+.animate {
+  opacity: 1;
+  transform: translateY(0);
+  filter: none;
+}
