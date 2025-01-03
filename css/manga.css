@@ -1,3 +1,21 @@
+.manga-button {
+  display: none;
+  width: 90%;
+  margin: 100px auto;
+  text-align: center;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: all 0.3s;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--main-color);
+}
+.manga-button a {
+  text-decoration: none;
+  color: var(--second-color);
+  font-weight: bold;
+}
 .manga-section {
   width: 90%;
   margin: 0 auto;
@@ -49,14 +67,17 @@
   }
 }
 @media (max-width: 600px) {
+  .manga-button {
+    display: block;
+  }
   .manga-header {
     font-size: 2.5rem;
     margin: -5vh auto 0;
     z-index: 99;
     width: 70%;
   }
-  .manga-group {
-    grid-template-columns: repeat(1, 1fr);
+  .manga-section {
+    display: none;
   }
 }
 .manga-group div {
